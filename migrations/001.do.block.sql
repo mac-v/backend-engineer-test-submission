@@ -1,0 +1,4 @@
+CREATE TABLE block (
+    id VARCHAR(255) PRIMARY KEY,
+    height INTEGER UNIQUE NOT NULL CHECK (height > 0)
+);
